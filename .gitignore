@@ -1,0 +1,47 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Editor / OS
+.idea/
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Date procesate (regenerabile)
+Dataset/processed/
+
+# Instrucțiuni private (nu fac parte din livrabil)
+CLAUDE.md
+PLAN_PROIECT_PACHETE_PYTHON.md
+
+# Document intern Q&A
+Pregatire Q&A Proiect.docx
+
+# Sursa editabilă a livrabilului (urcăm doar PDF-ul)
+Proiect Pachete Software.docx
+
+# Materiale seminar profesor (off-limits, nu redistribuim)
+Seminar/
+
+# Scripturi de build și asset-uri sursă pentru Word (one-shot, nu rulează la runtime)
+scripts/
+word_assets/
+
+# Tooling intern (Playwright MCP, etc.)
+.playwright-mcp/
+
+# Capturi de review/verificare (artefacte temporare)
+review_*.png
+verify_*.png
+tab1-prezentare.png
+
+# Fișiere de lock create de Word/Excel când documentele sunt deschise
+~$*.docx
+~$*.xlsx
